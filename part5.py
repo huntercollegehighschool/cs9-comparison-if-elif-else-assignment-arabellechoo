@@ -27,11 +27,14 @@ month = input("Enter a month: ")
 
 # for future ref: month = str(input("enter a month: ")) is more efficient
 
-if(month == "January" or "january" or "March" or "march" or "May" or "may" or "July" or "july" or "August" or "august" or "October" or "october" or "December" or "december"):
-    print("31")
+if(month == "January" or month == "january" or month == "March" or month == "march" or month == "May" or month == "may" or month == "July" or month == "july" or month == "August" or month == "august" or month == "October" or month == "october" or month == "December" or month == "december"):
+  print("31")
 
-elif(month != "January" or "january" or "February" or "february" or "March" or "march" or "April" or "april" or "May" or "may" or "June" or "june" or "July" or "july" or "August" or "august" or "September" or "september" or "October" or "october" or "December" or "december"):
+elif(month == "February" or month == "february"):
+  print("28 or 29")
+
+elif(month != "January" or month != "january" or month != "February" or month != "february" or month != "March" or month != "march" or month != "April" or month != "april" or month != "May" or month != "may" or month != "June" or month != "june" or month != "July" or month != "july" or month != "August" or month != "august" or month != "September" or month != "september" or month != "October" or month != "october" or month != "November" or month != "november" or month != "December" or month != "december"):
   print("not a month")
 
-else: 
-      print("30")
+elif(month == "September" or month == "september" or month == "June" or month == "june" or month == "April" or month == "april" or month == "November" or month == "november"):
+ print("30")
