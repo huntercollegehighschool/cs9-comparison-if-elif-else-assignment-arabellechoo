@@ -1,0 +1,6 @@
+For whatever reason, the pull request is missing from your repository. This is a problem because that means that I can't give feedback where I normally do.
+
+There is one problem in your code in part 5: the condition in the 2nd elif statement should include "and" only, not "or". Your code fails in the case where the input is a valid month with 30 days (e.g. "april").
+Other than that, nice job.
+
+-Austin
