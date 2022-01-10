@@ -26,15 +26,16 @@ not a month
 month = input("Enter a month: ")
 
 # for future ref: month = str(input("enter a month: ")) is more efficient
+if(month != "January" and month != "january" and month != "February" and month != "february" and month != "March" and month != "march" and month != "April" and month != "april" and month != "May" and month != "may" and month != "June" and month != "june" and month != "July" and month != "july" and month != "August" and month != "august" and month != "September" and month != "september" and month != "October" and month != "october" and month != "November" and month != "november" and month != "December" and month != "december"):
+  print("not a month")
 
-if(month == "January" or month == "january" or month == "March" or month == "march" or month == "May" or month == "may" or month == "July" or month == "july" or month == "August" or month == "august" or month == "October" or month == "october" or month == "December" or month == "december"):
+
+
+elif(month == "January" or month == "january" or month == "March" or month == "march" or month == "May" or month == "may" or month == "July" or month == "july" or month == "August" or month == "august" or month == "October" or month == "october" or month == "December" or month == "december"):
   print("31")
 
 elif(month == "February" or month == "february"):
   print("28 or 29")
 
-elif(month != "January" or month != "january" or month != "February" or month != "february" or month != "March" or month != "march" or month != "April" or month != "april" or month != "May" or month != "may" or month != "June" or month != "june" or month != "July" or month != "july" or month != "August" or month != "august" or month != "September" or month != "september" or month != "October" or month != "october" or month != "November" or month != "november" or month != "December" or month != "december"):
-  print("not a month")
-
-elif(month == "September" or month == "september" or month == "June" or month == "june" or month == "April" or month == "april" or month == "November" or month == "november"):
+else:
  print("30")
