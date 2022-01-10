@@ -25,10 +25,10 @@ num = int(input("Input an integer: "))
 if(num == 0):
   print("The number is zero")
 
-elif(num <= 0): 
+elif(num < 0): 
   print("The number is negative")
 
-elif(num >= 0):
+elif(num > 0):
   print("The number is positive")
 
 if(num % 3 == 0):
